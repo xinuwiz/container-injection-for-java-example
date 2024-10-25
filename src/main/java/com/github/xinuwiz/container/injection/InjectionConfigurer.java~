@@ -1,0 +1,11 @@
+package com.github.xinuwiz.container.injection;
+
+public interface InjectionConfigurer<T> {
+
+    /**
+     * That means {@link ContractWithSingleDependency}
+     */
+    static <T> InjectionConfigurer<T> forContractWithSingleDependency(Class<T> type) {
+        // TOOD
+    }
+}

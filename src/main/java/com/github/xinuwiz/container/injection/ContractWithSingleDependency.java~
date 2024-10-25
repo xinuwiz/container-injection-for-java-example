@@ -1,0 +1,8 @@
+package com.github.xinuwiz.container.injection;
+
+public class ContractWithSingleDependency<T> extends Contract<Dependency<T>> {
+
+    public ContractWithSingleDependency(Class<Dependency<T>> type) {
+        super(type);
+    }
+}
